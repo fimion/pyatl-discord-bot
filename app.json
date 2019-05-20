@@ -6,6 +6,11 @@
     "bot",
     "python"
   ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "website": "https://github.com/fimion/pyatl-discord-bot/",
   "repository": "https://github.com/fimion/pyatl-discord-bot",
   "env": {
@@ -24,7 +29,6 @@
         "size": "hobby",
         "type": "worker"
       }
-    },
-    "image": "heroku/python"
+    }
   }
 }
