@@ -21,14 +21,14 @@
     "DISCORD_TOKEN": {
       "description": "the discord API token that allows the bot to login",
       "required": true
-    },
-    "formation": [
-      {
-        "command": "python app.py",
-        "quantity": 1,
-        "size": "hobby",
-        "type": "worker"
-      }
-    ]
+    }
+  },
+  "formation": {
+    "worker": {
+      "command": "python app.py",
+      "quantity": 1,
+      "size": "hobby",
+      "type": "worker"
+    }
   }
 }
