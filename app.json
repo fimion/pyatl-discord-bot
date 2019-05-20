@@ -1,0 +1,30 @@
+{
+  "name": "PyATL Discord Bot",
+  "description": "A Discord Bot designed for PyATL",
+  "keywords": [
+    "discord.py",
+    "bot",
+    "python"
+  ],
+  "website": "https://github.com/fimion/pyatl-discord-bot/",
+  "repository": "https://github.com/fimion/pyatl-discord-bot",
+  "env": {
+    "BOT_COMMAND_PREFIX": {
+      "description": "The prefix the bot will use to look for commands",
+      "value": "?"
+    },
+    "DISCORD_TOKEN": {
+      "description": "the discord API token that allows the bot to login",
+      "required": true
+    },
+    "formation": {
+      "discord-bot": {
+        "command": "python app.py",
+        "quantity": 1,
+        "size": "hobby",
+        "type": "worker"
+      }
+    },
+    "image": "heroku/python"
+  }
+}
