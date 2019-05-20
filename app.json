@@ -23,7 +23,7 @@
       "required": true
     },
     "formation": {
-      "discord-bot": {
+      "worker": {
         "command": "python app.py",
         "quantity": 1,
         "size": "hobby",
